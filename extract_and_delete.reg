@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Extract and Delete]
+"Icon"="C:\\Program Files\\7-Zip\\7z.exe"
+"MultiSelectModel"="Player"
+
+[HKEY_CLASSES_ROOT\*\shell\Extract and Delete\command]
+@="wscript.exe \"C:\\Scripts\\extract_and_delete.vbs\" \"%1\""
