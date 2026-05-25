@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Selected Paths to Layers</_name>
+    <id>org.inkscape.filter.paths2layers</id>
+   <dependency type="executable" location="extensions">paths2layers.py</dependency>
+   <dependency type="executable" location="extensions">inkex.py</dependency>
+    <effect>
+   <object-type>path</object-type>
+   <effects-menu>
+      <submenu _name="Convert Paths to Layers"/>
+   </effects-menu>
+   </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">paths2layers.py</command>
+    </script>
+</inkscape-extension>
